@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class User < ActiveRecord::Base.
+class User < ActiveRecord::Base
   self.implicit_order_column = "created_at"
 
   extend Devise::Models
